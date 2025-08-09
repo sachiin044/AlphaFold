@@ -45,7 +45,7 @@ coverage.xml
 
 # pyenv
 .python-version
-.venv
+venv/
 
 # mypy
 .mypy_cache/
