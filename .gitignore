@@ -1,0 +1,5 @@
+# Ignore all dataset files in src/data
+src/data/*
+
+# But keep the download script
+!src/data/dataset_download.py
