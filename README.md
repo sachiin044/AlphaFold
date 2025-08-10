@@ -32,7 +32,8 @@ This implementation focuses on **Protein Family Classification** using amino aci
 **Live App**: [Open Mini AlphaFold on Streamlit Cloud](https://sachiin044-hacknation-appstreamlit-app-tqvhzh.streamlit.app/)  
 
 **Demo Video**:  
-[![Watch Demo](images/demo-thumbnail.png)](YOUR_VIDEO_LINK)  
+
+[![Watch Demo](images/demo-thumbnail.png)](https://drive.google.com/file/d/19PDryaIRcEpJHtE3EIWpYO5bTXdf9g-c/view?usp=drivesdk)  
 
 **Screenshots**:  
 ![App Screenshot](images/app-screenshot.png)  
