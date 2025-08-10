@@ -1,12 +1,21 @@
-# Byte-compiled / optimized / DLL files
+# ----------------------------
+# Python bytecode and caches
+# ----------------------------
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyo
+*.pyd
+*.pkl
 
+# ----------------------------
 # C extensions
+# ----------------------------
 *.so
 
-# Distribution / packaging
+# ----------------------------
+# Distribution / Packaging
+# ----------------------------
 .Python
 build/
 develop-eggs/
@@ -23,11 +32,15 @@ var/
 .installed.cfg
 *.egg
 
+# ----------------------------
 # Installer logs
+# ----------------------------
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Unit test / coverage reports
+# ----------------------------
+# Unit test / Coverage reports
+# ----------------------------
 htmlcov/
 .tox/
 .nox/
@@ -40,34 +53,73 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 
+# ----------------------------
 # Jupyter Notebook
+# ----------------------------
 .ipynb_checkpoints
 
-# pyenv
-.python-version
+# ----------------------------
+# Virtual environments
+# ----------------------------
 venv/
+env/
+.venv/
 
+# ----------------------------
+# pyenv
+# ----------------------------
+.python-version
+
+# ----------------------------
 # mypy
+# ----------------------------
 .mypy_cache/
 .dmypy.json
 dmypy.json
 
-# VS Code
+# ----------------------------
+# IDE / Editor settings
+# ----------------------------
 .vscode/
-
-# PyCharm
 .idea/
 
-# Mac
+# ----------------------------
+# OS generated files
+# ----------------------------
 .DS_Store
-
-# Windows
 Thumbs.db
 ehthumbs.db
 Desktop.ini
 
-# Ignore all dataset files in src/data
+# ----------------------------
+# Datasets and large files
+# ----------------------------
 src/data/*
-
-# But keep the download script
 !src/data/dataset_download.py
+data/
+*.fasta
+*.csv
+*.tsv
+*.zip
+*.tar.gz
+
+# ----------------------------
+# Model checkpoints
+# ----------------------------
+checkpoints/
+*.pt
+!models/protein_classifier.pt   # keep final model file
+
+# ----------------------------
+# Cache directories
+# ----------------------------
+~/.cache/
+.cache/
+torch_cache/
+transformers_cache/
+
+# ----------------------------
+# Streamlit secrets/config
+# ----------------------------
+.streamlit/secrets.toml
+.streamlit/config.toml

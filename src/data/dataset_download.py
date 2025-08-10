@@ -6,11 +6,11 @@ from urllib.parse import urlparse
 # Disable SSL warnings
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-# DEFAULT_URL = "https://scop.berkeley.edu/downloads/scopeseq-2.07/astral-scopedom-seqres-gd-all-2.07-stable.fa"
-# DEFAULT_FOLDER = r"C:\Users\KIIT0001\OneDrive\Desktop\hack-nation\src\data"
+DEFAULT_URL = "https://scop.berkeley.edu/downloads/scopeseq-2.07/astral-scopedom-seqres-gd-all-2.07-stable.fa"
+DEFAULT_FOLDER = r"C:\Users\aryan\OneDrive\Desktop\hack-nation\hacknation\src\data"
 
-DEFAULT_URL = "https://scop.berkeley.edu/downloads/parse/dir.cla.scope.2.07-stable.txt"
-DEFAULT_FOLDER = r"C:\Users\KIIT0001\OneDrive\Desktop\hack-nation\src\data"
+# DEFAULT_URL = "https://scop.berkeley.edu/downloads/parse/dir.cla.scope.2.07-stable.txt"
+# DEFAULT_FOLDER = r"C:\Users\aryan\OneDrive\Desktop\hack-nation\hacknation\src\data"
 
 def download_file(url, folder_path):
     try:
