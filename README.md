@@ -86,7 +86,13 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 ### Cloud Deployment
-This project is already deployed on Streamlit Cloud.[Click here to try it now](https://sachiin044-hacknation-appstreamlit-app-tqvhzh.streamlit.app/) 
+This project is already deployed on Streamlit Cloud.  [Click here to try it now](https://sachiin044-hacknation-appstreamlit-app-tqvhzh.streamlit.app/) 
+
+---
+
+## 📂 Project Structure
+<img width="695" height="555" alt="image" src="https://github.com/user-attachments/assets/c723cc6b-15bf-4e2f-ad90-2eb8e45947e8" />
+
 
 
 
