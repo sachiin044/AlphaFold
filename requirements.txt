@@ -4,3 +4,4 @@ numpy
 pandas
 tqdm
 fair-esm
+scikit-learn
