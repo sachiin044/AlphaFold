@@ -66,6 +66,11 @@ This implementation focuses on **Protein Family Classification** using amino aci
 git clone https://github.com/sachiin044/hacknation.git
 cd hacknation
 
+2️⃣ Create and activate a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+
 
 
 
