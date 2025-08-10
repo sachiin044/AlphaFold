@@ -43,6 +43,12 @@ if st.button("Predict Family"):
                 predicted_family, confidence = result
                 st.success(f"**Predicted Family:** {predicted_family}")
                 st.info(f"Confidence: {confidence*100:.2f}%")
+                json_result = {
+                    "predicted_family": predicted_family,
+                    "confidence_score": confidence
+                }
+                # Display the dictionary as a JSON object
+                st.json(json_result)
             else:
                 predicted_family = result if isinstance(result, str) else str(result)
                 st.success(f"**Predicted Family:** {predicted_family}")
