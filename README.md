@@ -85,7 +85,8 @@ streamlit run app.py
 ```
 ### Cloud Deployment
 This project is already deployed on Streamlit Cloud.
-- [Click here to try it now](https://sachiin044-hacknation-appstreamlit-app-tqvhzh.streamlit.app/) 
+
+[Click here to try it now](https://sachiin044-hacknation-appstreamlit-app-tqvhzh.streamlit.app/) 
 
 
 
