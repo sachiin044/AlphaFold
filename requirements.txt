@@ -5,3 +5,6 @@ pandas
 tqdm
 fair-esm
 scikit-learn
+plotly
+time
+json
