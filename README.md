@@ -57,3 +57,41 @@ This project aims to **democratize protein AI** by:
 
 **🖼 Screenshots:**
 ![Protein Family Classifier Screenshot](https://github.com/user-attachments/assets/525bc008-f882-47ec-803b-b4b33045dfed)
+
+---
+
+---
+
+## 6️⃣ Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/sachiin044/AlphaFold.git
+cd AlphaFold
+```
+
+2. **Create and activate a virtual environment**
+```bash
+python -m venv venv
+# On Windows
+venv\Scripts\activate
+# On macOS / Linux
+source venv/bin/activate
+```
+
+3. **Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+## 7️⃣ Usage
+**Run locally**
+```bash
+streamlit run app/streamlit_app.py
+```
+
+**Run on Streamlit Cloud**
+
+This project is deployed and accessible online:
+Click here to try it now
+
