@@ -51,7 +51,7 @@ This project aims to **democratize protein AI** by:
 
 ## 5️⃣ Demo & Screenshots
 
-**🔗 Live App:** [Open on Streamlit Cloud](https://sachiin044-hacknation-appstreamlit-app-tqvhzh.streamlit.app/)
+**🔗 Live App:** [Open on Streamlit Cloud](https://sachiin044-hacknation-appstreamlit-app-tqvhzh.streamlit.app)
 
 **📺 Demo Video:** [Watch here](https://drive.google.com/file/d/19PDryaIRcEpJHtE3EIWpYO5bTXdf9g-c/view?usp=drivesdk)
 
@@ -93,5 +93,5 @@ streamlit run app/streamlit_app.py
 **Run on Streamlit Cloud**
 
 This project is deployed and accessible online:
-Click here to try it now
+[Click here](https://sachiin044-hacknation-appstreamlit-app-tqvhzh.streamlit.app) to try it now
 
