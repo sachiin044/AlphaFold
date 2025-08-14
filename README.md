@@ -95,3 +95,16 @@ streamlit run app/streamlit_app.py
 This project is deployed and accessible online:
 [Click here](https://sachiin044-hacknation-appstreamlit-app-tqvhzh.streamlit.app) to try it now
 
+--
+
+## 8️⃣ Input & Output Format
+
+**Input:**
+
+  - A protein sequence in plain text (amino acids in single-letter format, e.g., GDTRPRFLWQLK...).
+
+**Output:**
+
+  - Predicted protein family name.
+  - Confidence score (percentage).
+
