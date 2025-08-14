@@ -84,7 +84,7 @@ pip install -r requirements.txt
 ## 🚀 Usage
 ### Local Run
 ```bash
-streamlit run app.py
+streamlit run app\streamlit_app.py 
 ```
 ### Cloud Deployment
 This project is already deployed on Streamlit Cloud.  [Click here to try it now](https://sachiin044-hacknation-appstreamlit-app-tqvhzh.streamlit.app/) 
