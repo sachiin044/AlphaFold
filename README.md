@@ -60,8 +60,6 @@ This project aims to **democratize protein AI** by:
 
 ---
 
----
-
 ## 6️⃣ Installation
 
 1. **Clone the repository**
@@ -95,7 +93,7 @@ streamlit run app/streamlit_app.py
 This project is deployed and accessible online:
 [Click here](https://sachiin044-hacknation-appstreamlit-app-tqvhzh.streamlit.app) to try it now
 
---
+---
 
 ## 8️⃣ Input & Output Format
 
@@ -227,7 +225,8 @@ See the [LICENSE](LICENSE) file for details.
 
 **Author:** Sachin Gupta  
 **GitHub:** [sachiin044](https://github.com/sachiin044)  
-**Email:** *(your email here)*  
+**Email:** royalsachingupta@gmail.com  
+**LinkedIn** [sachiin04](https://www.linkedin.com/in/sachiin04/)
 **Live Demo:** [Streamlit App](https://sachiin044-hacknation-appstreamlit-app-tqvhzh.streamlit.app/)
 
 ---
