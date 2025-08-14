@@ -225,9 +225,9 @@ See the [LICENSE](LICENSE) file for details.
 
 **Author:** Sachin Gupta  
 **GitHub:** [sachiin044](https://github.com/sachiin044)  
-**Email:** royalsachingupta@gmail.com
-**LinkedIn** [sachiin04](https://www.linkedin.com/in/sachiin04)
-**Live Demo:** [Streamlit App](https://sachiin044-hacknation-appstreamlit-app-tqvhzh.streamlit.app)
+**Email:** royalsachingupta@gmail.com  
+**LinkedIn:** [sachiin04](https://www.linkedin.com/in/sachiin04)  
+**Live Demo:** [Streamlit App](https://sachiin044-hacknation-appstreamlit-app-tqvhzh.streamlit.app/)  
 
 ---
 
