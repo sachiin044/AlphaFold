@@ -33,7 +33,8 @@ This implementation focuses on **Protein Family Classification** using amino aci
 
 **Demo Video**:  
 
-[![Watch Demo](images/demo-thumbnail.png)](https://drive.google.com/file/d/19PDryaIRcEpJHtE3EIWpYO5bTXdf9g-c/view?usp=drivesdk)  
+[![Watch Demo](<img width="1919" height="911" alt="image" src="https://github.com/user-attachments/assets/16e3a177-444b-4c84-a254-3c424730f5eb" />
+)](https://drive.google.com/file/d/19PDryaIRcEpJHtE3EIWpYO5bTXdf9g-c/view?usp=drivesdk)  
 
 **Screenshots**:  
 ![App Screenshot](images/app-screenshot.png)  
