@@ -85,6 +85,6 @@ git push origin feature-add-secondary-structure
 If you’re unsure about something, feel free to:
 - Open an Issue
 - Contact the author via email: royalsachingupta@gmail.com
-- Connect on LinkedIn: sachiin04
+- Connect on LinkedIn: [sachiin04](https://www.linkedin.com/in/sachiin04/)
 
 We look forward to your contributions! 🚀
