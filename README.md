@@ -108,3 +108,41 @@ This project is deployed and accessible online:
   - Predicted protein family name.
   - Confidence score (percentage).
 
+```bash
+Input Sequence:  GDTRPRFLWQLK...
+Predicted Family:  c.47.1.10
+Confidence:  92.45%
+```
+
+---
+
+## 9️⃣ Project Structure
+```bash
+AlphaFold/
+│
+├── app/
+│   └── streamlit_app.py       # Streamlit UI for prediction
+│
+├── src/
+│   ├── models/
+│   │   └── infer_wrapper.py   # Prediction wrapper logic
+│   ├── data/                  # Data loading & preprocessing scripts
+│   └── utils/                 # Utility functions
+│
+├── requirements.txt           # Python dependencies
+├── README.md                  # Project documentation
+└── ...
+```
+
+---
+
+## 🔟 Dataset
+- Name: SCOPe (Structural Classification of Proteins)
+
+- Description: A curated dataset for structural and functional classification of proteins.
+
+- Source: http://scop.berkeley.edu/
+
+- Usage in this project: Used to train and evaluate the protein family classifier.
+
+
