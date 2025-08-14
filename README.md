@@ -145,4 +145,92 @@ AlphaFold/
 
 - Usage in this project: Used to train and evaluate the protein family classifier.
 
+  ---
+
+## 1️⃣1️⃣ Model Architecture
+
+- **Embedding Layer:**  
+  Uses **ESM-2** or **ProtBERT** pre-trained protein language model embeddings.  
+- **Classification Layer:**  
+  An ECM-based (Efficient Convolutional Model) classifier with ≤50M parameters.  
+- **Training:**  
+  - Optimizer: AdamW  
+  - Loss: CrossEntropyLoss  
+  - Batch size: Tuned for CPU/GPU constraints  
+- **Deployment:**  
+  Packaged with Streamlit for interactive use.
+
+---
+
+## 1️⃣2️⃣ Results & Examples
+
+| Sequence Example | Predicted Family | Confidence |
+|------------------|------------------|------------|
+| GDTRPRFLWQLK...  | c.47.1.10        | 92.45%     |
+| MLEKFTYLSVAV...  | a.25.1.2         | 88.10%     |
+
+**Screenshot of Output:**
+![Output Example](https://github.com/user-attachments/assets/525bc008-f882-47ec-803b-b4b33045dfed)
+
+---
+
+## 1️⃣3️⃣ Why It Matters
+
+Protein research is the foundation for **drug discovery**, **disease understanding**, and **biotechnology innovation**.  
+While large-scale AlphaFold models push the boundaries of science, **Mini AlphaFold** makes protein AI more **accessible**, **cost-effective**, and **practical** for:  
+- Academic labs with limited budgets  
+- Bioinformatics courses and student projects  
+- Rapid prototyping in biotech startups
+
+---
+
+## 1️⃣4️⃣ Future Work / Roadmap
+
+- [ ] Extend to **secondary structure prediction** (alpha-helix, beta-sheet, coil).  
+- [ ] Add **ligand–protein binding affinity** prediction module.  
+- [ ] Support **batch predictions** for multiple sequences.  
+- [ ] Integrate 3D structure visualization via Mol* Viewer or PyMOL.  
+- [ ] Improve training pipeline with more protein families.
+
+---
+
+## 1️⃣5️⃣ Contributing
+
+We welcome contributions!  
+To contribute:
+1. Fork the repository.
+2. Create a feature branch (`git checkout -b feature-name`).
+3. Commit your changes and push the branch.
+4. Open a Pull Request.
+
+Please check our **[CONTRIBUTING.md](CONTRIBUTING.md)** for guidelines.
+
+---
+
+## 1️⃣6️⃣ License
+
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 1️⃣7️⃣ Acknowledgements
+
+- **AlphaFold** by DeepMind – Inspiration for this project.  
+- **Meta AI’s ESM-2** and **ProtBERT** – Pre-trained protein language models.  
+- **SCOPe Dataset** – Protein family classification dataset.  
+- Streamlit team for the interactive app framework.
+
+---
+
+## 1️⃣8️⃣ Contact
+
+**Author:** Sachin Gupta  
+**GitHub:** [sachiin044](https://github.com/sachiin044)  
+**Email:** *(your email here)*  
+**Live Demo:** [Streamlit App](https://sachiin044-hacknation-appstreamlit-app-tqvhzh.streamlit.app/)
+
+---
+
+
 
