@@ -1,129 +1,59 @@
 # 🧬 Mini AlphaFold – Small-Scale Protein Structure & Drug Discovery AI
 
-A lightweight, Streamlit-powered AI system for protein structure–related tasks, inspired by AlphaFold but optimized for smaller datasets, fewer parameters, and modest compute environments.
+A lightweight, Streamlit-powered AI system for **protein family classification**, inspired by DeepMind’s AlphaFold but optimized for **smaller datasets**, **fewer parameters**, and **accessible compute environments**.
 
 ---
 
-## 📑 Table of Contents
-- [Overview](#overview)
-- [Demo & Media](#demo--media)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Examples / Results](#examples--results)
-- [Why It Matters](#why-it-matters)
-- [Contributing](#contributing)
-- [License](#license)
+## 1️⃣ Project Overview
+
+**Mini AlphaFold** is designed to bring protein structure–related AI capabilities to researchers, students, and developers without access to supercomputers.  
+Instead of tackling full 3D folding like AlphaFold, this project focuses on **Protein Family Classification** using amino acid sequences.
+
+Key highlights:
+- Runs locally or on modest cloud instances.
+- Built on **transfer learning** from pre-trained protein language models (e.g., ESM-2, ProtBERT).
+- Interactive **Streamlit web app** for real-time predictions.
 
 ---
 
-## 📖 Overview
-AlphaFold has revolutionized biology by predicting protein structures with unprecedented accuracy, but its massive compute requirements limit accessibility.  
-**Mini AlphaFold** flips the script — delivering **specialized, small-scale models** that tackle targeted protein structure or drug discovery problems efficiently.
+## 2️⃣ Motivation
 
-This implementation focuses on **Protein Family Classification** using amino acid sequences, enabling researchers and students to experiment with protein structure AI without supercomputers.
+AlphaFold’s breakthrough in protein structure prediction earned global recognition, but its **high computational requirements** limit accessibility for smaller research teams.
 
----
-
-## 🎥 Demo & Media
-
-**Live App**: [Open Mini AlphaFold on Streamlit Cloud](https://sachiin044-hacknation-appstreamlit-app-tqvhzh.streamlit.app/)  
-
-**Demo Video**:  
-
-[![Watch Demo](<img width="1919" height="911" alt="image" src="https://github.com/user-attachments/assets/16e3a177-444b-4c84-a254-3c424730f5eb" />
-)](https://drive.google.com/file/d/19PDryaIRcEpJHtE3EIWpYO5bTXdf9g-c/view?usp=drivesdk)  
-
-**Screenshots**:  
-![App Screenshot](<img width="1919" height="911" alt="image" src="https://github.com/user-attachments/assets/525bc008-f882-47ec-803b-b4b33045dfed" />
-)  
-![Prediction Output](images/output-screenshot.png)  
+This project aims to **democratize protein AI** by:
+- Using **lightweight deep learning models** (≤50M parameters).
+- Narrowing the focus to **specific, high-impact bioinformatics tasks**.
+- Providing an **easy-to-use web interface** for fast experimentation.
 
 ---
 
-## ✨ Features
-- 🧪 **Protein Family Classification** from amino acid sequences.  
-- ⚡ **Lightweight Model Training** using ≤50M parameter architectures.  
-- 📊 **Prediction Visualization** with confidence scores and graphical output.  
-- 🌐 **Interactive Web Interface** via Streamlit.  
-- 🛠 **Modular Codebase** for extending to other bioinformatics tasks.
+## 3️⃣ Features
+
+- 🧪 **Protein Family Classification** from amino acid sequences.
+- ⚡ **Fast Inference** on CPU or GPU.
+- 📊 **Prediction Confidence Scores** displayed alongside results.
+- 🌐 **Interactive Web Interface** via Streamlit.
+- 🛠 **Modular Codebase** for extending to other protein tasks.
+- 📦 **Lightweight Deployment** for local or cloud environments.
 
 ---
 
-## 🛠 Tech Stack
-- **Programming Language:** Python  
-- **Deep Learning Framework:** PyTorch  
-- **Model Architecture:** ECM-based + transfer learning from ESM-2 / ProtBERT embeddings  
-- **Dataset:** SCOPe (Protein structural classification)  
-- **Visualization:** Matplotlib, Streamlit charts  
-- **Utilities:** NumPy, Pandas, scikit-learn, BioPython, tqdm  
+## 4️⃣ Tech Stack
+
+- **Language:** Python
+- **Deep Learning Framework:** PyTorch
+- **Model Architecture:** ECM-based classifier + embeddings from ESM-2 / ProtBERT
+- **Dataset:** [SCOPe](http://scop.berkeley.edu/) – Structural Classification of Proteins
+- **Visualization:** Streamlit, Matplotlib
+- **Utilities:** NumPy, Pandas, scikit-learn, BioPython, tqdm
 
 ---
 
-## ⚡ Installation
+## 5️⃣ Demo & Screenshots
 
-1️⃣ Clone the repository:
-```bash
-git clone https://github.com/sachiin044/hacknation.git
-cd hacknation
-```
+**🔗 Live App:** [Open on Streamlit Cloud](https://sachiin044-hacknation-appstreamlit-app-tqvhzh.streamlit.app/)
 
-2️⃣ Create and activate a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
-```
+**📺 Demo Video:** [Watch here](https://drive.google.com/file/d/19PDryaIRcEpJHtE3EIWpYO5bTXdf9g-c/view?usp=drivesdk)
 
-3️⃣ Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## 🚀 Usage
-### Local Run
-```bash
-streamlit run app\streamlit_app.py 
-```
-### Cloud Deployment
-This project is already deployed on Streamlit Cloud.  [Click here to try it now](https://sachiin044-hacknation-appstreamlit-app-tqvhzh.streamlit.app/) 
-
----
-
-## 📂 Project Structure
-<img width="695" height="555" alt="image" src="https://github.com/user-attachments/assets/c723cc6b-15bf-4e2f-ad90-2eb8e45947e8" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<img width="695" height="555" alt="image" src="https://github.com/user-attachments/assets/c723cc6b-15bf-4e2f-ad90-2eb8e45947e8" />
-## project overview
-This project is a lightweight version of AlphaFold designed for protein structure related tasking using smaller dataset.
-
-## Features 
-predicting family for the user given protein sequence 
-## tech stack used
-python
-pytorch
-ECM model architecture
-SCOPe dataset
+**🖼 Screenshots:**
+![Protein Family Classifier Screenshot](https://github.com/user-attachments/assets/525bc008-f882-47ec-803b-b4b33045dfed)
