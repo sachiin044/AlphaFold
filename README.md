@@ -143,7 +143,7 @@ AlphaFold/
 
 - Usage in this project: Used to train and evaluate the protein family classifier.
 
-  ---
+---
 
 ## 1️⃣1️⃣ Model Architecture
 
